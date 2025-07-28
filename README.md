@@ -43,12 +43,21 @@ examen/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── Navbar.tsx       # Navegación principal
-│   │   │   └── Layout.tsx       # Layout base
+│   │   │   ├── NavBar.tsx       # Navegación principal
+│   │   │   ├── Table.tsx        # Componente de tabla reutilizable
+│   │   │   ├── Input.tsx        # Componente de input reutilizable
+│   │   │   └── Select.tsx       # Componente de select reutilizable
 │   │   ├── pages/
-│   │   │   ├── Equipos.tsx      # Dashboard de inventario
+│   │   │   ├── Dashboard.tsx    # Dashboard principal
 │   │   │   ├── Solicitudes.tsx  # Gestión de solicitudes
 │   │   │   └── Propuesta.tsx    # Vista de propuesta optimizada
+│   │   ├── api/
+│   │   │   ├── axios.ts         # Configuración de Axios
+│   │   │   ├── equipos.ts       # API de equipos
+│   │   │   ├── roles.ts         # API de roles
+│   │   │   └── solicitudes.ts   # API de solicitudes
+│   │   ├── types/
+│   │   │   └── api.d.ts         # Tipos TypeScript para API
 │   │   ├── App.tsx              # Aplicación principal
 │   │   ├── App.css              # Estilos principales
 │   │   ├── main.tsx             # Punto de entrada
