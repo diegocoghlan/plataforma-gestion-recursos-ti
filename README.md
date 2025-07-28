@@ -72,8 +72,6 @@ examen/
 │   └── vite.config.ts           # Configuración Vite
 ├── requirements.txt             # Dependencias Python principales
 ├── esquema.sql                  # Esquema de base de datos
-├── documento_justificacion.tex  # Documentación técnica LaTeX
-├── examen.md                    # Instrucciones del examen
 ├── .gitignore                   # Archivos ignorados por Git
 └── README.md                    # Este archivo
 ```
